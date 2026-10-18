@@ -1,0 +1,32 @@
+{
+  "name": "pagesense-server",
+  "version": "1.0.0",
+  "description": "PageSense backend — AI-powered multi-source research assistant API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "pagesense",
+    "ai",
+    "research",
+    "mern"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.52.0",
+    "axios": "^1.20.0",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "openai": "^4.52.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

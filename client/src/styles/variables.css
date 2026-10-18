@@ -1,0 +1,77 @@
+/* ============================================================
+   variables.css — Design System: Colors, Fonts, Spacing
+   ============================================================
+   CSS Custom Properties (variables) define your entire
+   design system in one place.
+   
+   To change the look of the whole app, change values here.
+   Every component will update automatically.
+   ============================================================ */
+
+:root {
+  /* ── Brand Colors ───────────────────────────────────────── */
+  --color-primary:        #6366f1;   /* Indigo — main brand color */
+  --color-primary-hover:  #4f46e5;   /* Darker indigo for hover states */
+  --color-primary-light:  #e0e7ff;   /* Light indigo for backgrounds */
+
+  --color-secondary:      #64748b;   /* Slate — secondary actions */
+  --color-secondary-hover:#475569;
+
+  --color-success:        #10b981;   /* Green — for positive states */
+  --color-warning:        #f59e0b;   /* Amber — for warnings */
+  --color-error:          #ef4444;   /* Red — for errors */
+  --color-conflict:       #f97316;   /* Orange — for conflicts/contradictions */
+
+  /* ── Neutral Colors ─────────────────────────────────────── */
+  --color-bg:             #f8fafc;   /* Page background */
+  --color-surface:        #ffffff;   /* Card/panel background */
+  --color-border:         #e2e8f0;   /* Border color */
+  --color-border-focus:   #6366f1;   /* Border on focus */
+
+  /* ── Text Colors ────────────────────────────────────────── */
+  --color-text-primary:   #0f172a;   /* Main text — near black */
+  --color-text-secondary: #475569;   /* Supporting text — medium grey */
+  --color-text-muted:     #94a3b8;   /* Placeholder, meta text */
+
+  /* ── Typography ─────────────────────────────────────────── */
+  --font-family:          'Inter', -apple-system, BlinkMacSystemFont,
+                          'Segoe UI', sans-serif;
+  --font-size-xs:         0.75rem;   /* 12px */
+  --font-size-sm:         0.875rem;  /* 14px */
+  --font-size-base:       1rem;      /* 16px */
+  --font-size-lg:         1.125rem;  /* 18px */
+  --font-size-xl:         1.25rem;   /* 20px */
+  --font-size-2xl:        1.5rem;    /* 24px */
+  --font-size-3xl:        1.875rem;  /* 30px */
+
+  /* ── Spacing Scale ──────────────────────────────────────── */
+  --space-1:  0.25rem;   /* 4px  */
+  --space-2:  0.5rem;    /* 8px  */
+  --space-3:  0.75rem;   /* 12px */
+  --space-4:  1rem;      /* 16px */
+  --space-5:  1.25rem;   /* 20px */
+  --space-6:  1.5rem;    /* 24px */
+  --space-8:  2rem;      /* 32px */
+  --space-10: 2.5rem;    /* 40px */
+  --space-12: 3rem;      /* 48px */
+
+  /* ── Border Radius ──────────────────────────────────────── */
+  --radius-sm:  0.375rem;   /* Small: inputs, badges */
+  --radius-md:  0.5rem;     /* Medium: cards */
+  --radius-lg:  0.75rem;    /* Large: panels */
+  --radius-xl:  1rem;       /* Extra large: hero sections */
+  --radius-full: 9999px;    /* Pill shape: tags */
+
+  /* ── Shadows ────────────────────────────────────────────── */
+  --shadow-sm:  0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md:  0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-lg:  0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+
+  /* ── Transitions ────────────────────────────────────────── */
+  --transition-fast:   150ms ease;
+  --transition-normal: 200ms ease;
+
+  /* ── Layout ─────────────────────────────────────────────── */
+  --max-width:        900px;   /* Maximum content width */
+  --header-height:    64px;
+}

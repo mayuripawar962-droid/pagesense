@@ -1,0 +1,19 @@
+# ============================================================
+# .gitignore — Files Git should never track or upload
+# ============================================================
+
+# node_modules contains thousands of downloaded packages.
+# It can be recreated by running "npm install" anytime.
+# Never commit this folder — it is huge and unnecessary.
+node_modules/
+
+# .env contains your secret API keys and passwords.
+# NEVER upload this to GitHub or any public place.
+.env
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build output (if any)
+dist/

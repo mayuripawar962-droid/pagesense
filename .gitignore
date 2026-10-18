@@ -1,0 +1,21 @@
+# ============================================================
+# Root .gitignore — applies to the entire pagesense project
+# ============================================================
+
+# Dependencies — regenerated with "npm install"
+node_modules/
+
+# Environment files — contain secret API keys, never commit these
+.env
+.env.local
+
+# Build output
+dist/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE folders
+.vscode/
+.idea/
