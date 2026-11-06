@@ -28,7 +28,7 @@ const apiClient = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
-  timeout: 120000, // 60 second timeout — AI calls can take a while
+  timeout: 180000, // 3 minute timeout — Gemini AI calls can take a while
 });
 
 // ── API Function 1: analyzeSources ───────────────────────────

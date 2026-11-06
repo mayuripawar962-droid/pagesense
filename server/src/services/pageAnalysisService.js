@@ -47,10 +47,10 @@ const getGemini = () => {
 };
 
 // ── How much text we send to the AI ──────────────────────────
-// The scraper already caps text at 15,000 chars. We apply a
-// second limit here as a safety net to avoid unexpectedly large
-// prompts if this service is ever called directly.
-const MAX_INPUT_LENGTH = 12000;
+// Keeping this low reduces token count, which directly speeds up
+// the Gemini response. 8,000 chars (~1,300 words) is enough for
+// a thorough summary, quiz, and flashcards.
+const MAX_INPUT_LENGTH = 8000;
 
 // ============================================================
 // MAIN FUNCTION: analyzePage
